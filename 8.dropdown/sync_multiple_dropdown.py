@@ -38,7 +38,7 @@ with sync_playwright() as p:
     original_list = options_text.copy()
     sorted_list = sorted(options_text)
 
-    print("Original list: ", original_list)
+    print("Original list:", original_list)
     print("Sorted list: ", sorted_list)
 
     if original_list == sorted_list:
